@@ -1,0 +1,70 @@
+/* line 8, ../sass/gizmodo.scss */
+body {
+  background: #fff;
+  color: #222;
+  font-style: normal;
+}
+
+/* line 14, ../sass/gizmodo.scss */
+.hidden {
+  display: none;
+}
+
+/* line 18, ../sass/gizmodo.scss */
+#header {
+  border-bottom: 3px solid #eaeaea;
+}
+
+/* line 22, ../sass/gizmodo.scss */
+#menu_icon {
+  width: 20px;
+  height: 37px;
+  padding: 15px 14px 0 15px;
+  display: inline-block;
+  float: left;
+}
+
+/* line 29, ../sass/gizmodo.scss */
+#menu_icon span {
+  display: block;
+  height: 1px;
+  margin-bottom: 1px;
+  background-color: #000;
+}
+
+/* line 36, ../sass/gizmodo.scss */
+#menu_icon span:nth-child(2) {
+  width: 75%;
+}
+
+/* line 39, ../sass/gizmodo.scss */
+#menu_icon span:nth-child(3) {
+  width: 50%;
+}
+
+/* line 43, ../sass/gizmodo.scss */
+#logo {
+  font-family: 'Nunito', sans-serif;
+  display: inline-block;
+  font-size: 26px;
+  margin: 10px 0 16px 0;
+}
+
+/* line 51, ../sass/gizmodo.scss */
+#login_button {
+  display: inline-block;
+  float: right;
+  width: 159px;
+  height: 36px;
+  margin: 40px 0 0 21px;
+  border-radius: 8px;
+  border: 3px solid #eaeaea;
+  color: #eaeaea;
+}
+
+@media only screen and (min-width: 500px) {
+  /* line 63, ../sass/gizmodo.scss */
+  #login_button {
+    display: block;
+  }
+}
