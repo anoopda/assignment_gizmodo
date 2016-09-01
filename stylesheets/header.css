@@ -138,17 +138,3 @@
     color: #0093ec;
   }
 }
-/* line 2, ../sass/common_classes.scss */
-.vertical_list ul {
-  list-style-type: none;
-}
-/* line 5, ../sass/common_classes.scss */
-.vertical_list li {
-  display: block;
-}
-
-/* line 10, ../sass/gizmodo.scss */
-body {
-  background: #fff;
-  font-style: sans-serif;
-}
