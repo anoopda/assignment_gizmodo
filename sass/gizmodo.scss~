@@ -1,0 +1,13 @@
+// @import "compass"
+// @mixin box($wt,$ht) {
+//  height:$ht;
+//  width: $wt;
+// }
+
+// #logo{ @include box(100%,500px);   }
+
+#logo{
+	width:100%;
+}
+
+

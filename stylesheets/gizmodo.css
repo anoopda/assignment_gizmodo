@@ -1,0 +1,154 @@
+/* line 4, ../sass/header.scss */
+#header {
+  border-bottom: 1px solid #eaeaea;
+  height: 61px;
+}
+
+/* line 9, ../sass/header.scss */
+#menu_icon {
+  height: 37px;
+  width: 20px;
+  padding: 15px 14px 0 15px;
+  display: inline-block;
+  float: left;
+}
+
+/* line 15, ../sass/header.scss */
+#menu_icon:hover span {
+  background-color: #0076bd;
+}
+
+/* line 18, ../sass/header.scss */
+#menu_icon span {
+  display: block;
+  height: 1px;
+  margin-bottom: 6px;
+  background-color: #000;
+}
+
+/* line 25, ../sass/header.scss */
+#menu_icon span:nth-child(2) {
+  width: 75%;
+}
+
+/* line 28, ../sass/header.scss */
+#menu_icon span:nth-child(3) {
+  width: 50%;
+}
+
+/* line 32, ../sass/header.scss */
+#search_icon {
+  float: left;
+  padding-top: 14px;
+  display: none;
+}
+
+/* line 37, ../sass/header.scss */
+#logo {
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  font-size: 38px;
+  margin: 11px 0 10px 0;
+}
+
+/* line 44, ../sass/header.scss */
+#login_button {
+  display: none;
+  float: right;
+  height: 24px;
+  width: 115px;
+  margin: 10px 12px 0 21px;
+  border-radius: 8px;
+  border: 3px solid #eaeaea;
+  color: #eaeaea;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+/* line 54, ../sass/header.scss */
+#login_button:hover {
+  background-color: #0076bd;
+}
+/* line 57, ../sass/header.scss */
+#login_button:hover span {
+  color: #fff;
+}
+
+/* line 60, ../sass/header.scss */
+#login_button span {
+  font-size: 13px;
+  text-align: center;
+  color: #aaa;
+  font-style: "Josefin Slab", serif;
+}
+
+/* line 66, ../sass/header.scss */
+#logo_onhover {
+  display: none;
+  margin-top: 21px;
+  height: 100%;
+  vertical-align: top;
+}
+
+/* line 72, ../sass/header.scss */
+#logo_onhover a {
+  text-decoration: none;
+  color: #0076bd;
+}
+
+/* line 76, ../sass/header.scss */
+#logo_wrapper {
+  width: 67%;
+  float: left;
+}
+
+/* line 80, ../sass/header.scss */
+#cross {
+  margin-left: 1px;
+  color: #aaa;
+  width: 1px;
+  height: 1px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 88, ../sass/header.scss */
+  #login_button {
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 800px) {
+  /* line 95, ../sass/header.scss */
+  #logo {
+    display: inline-block;
+    margin-left: 39%;
+  }
+
+  /* line 99, ../sass/header.scss */
+  #search_icon {
+    display: inline-block;
+  }
+
+  /* line 102, ../sass/header.scss */
+  #logo_wrapper:hover #logo_onhover {
+    display: inline-block;
+  }
+
+  /* line 103, ../sass/header.scss */
+  #logo_onhover a:hover {
+    text-decoration: underline;
+    color: #0093ec;
+  }
+}
+/* line 2, ../sass/common_classes.scss */
+.vertical_list ul {
+  list-style-type: none;
+}
+/* line 5, ../sass/common_classes.scss */
+.vertical_list li {
+  display: block;
+}
+
+/* line 10, ../sass/gizmodo.scss */
+body {
+  background: #fff;
+  font-style: sans-serif;
+}
