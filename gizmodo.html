@@ -5,12 +5,17 @@
 
 
     <title>GIZMODO</title>
+    <script src="jquery-1.12.4.min.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheets/gizmodo.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<script type="text/javascript" src="js/scroller_image_list.js"></script>
+	<script src="jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.4.4.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
 
 
 
@@ -42,6 +47,14 @@
 	</header>
 
 
+<section id="scroller">
+</section>
+		<script id="scroll_template" type="text/x-jQuery-tmpl">
+							<figure >
+							<img src="${img_link}" alt="${img_alt}">
+							<h3><span>${header}</span></h3>
+							</figure>
+		</script>
 
 
 <!-- 
@@ -146,6 +159,7 @@
 
  -->
 
+<script type="text/javascript" src="js/scroller_image_list.js"></script>
 
 </body>
 

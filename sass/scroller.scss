@@ -1,0 +1,108 @@
+@import "mixing";
+@import "variables";
+
+#scroller{
+	overflow-x: scroll;
+    white-space: nowrap;
+    width:100%;
+	
+	figure{
+	position:relative;
+	width: 80%;
+	display:inline-block;
+	box-sizing:border-box;
+	margin-left:5%;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+figure:hover:after{
+	opacity:0.2;
+}
+figure:hover h3{
+	opacity:1;
+}
+figure:nth-child(3) {
+     margin-right:5%;
+}
+
+figure:after{
+	display: block;
+    content: '';
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: $black2;
+    opacity: 0;
+    transition: opacity 100ms ease-in-out; 
+}
+img{
+		height:100%;
+		width:100%;
+		top:0;
+		left:0;
+		z-index: 1;
+		@include box(100%,100%);
+
+		
+	}
+ h3{	position:absolute;
+		z-index: 2;
+		opacity:0.6;
+		color:$white1;
+		bottom:4px;
+		left:0px;
+		white-space: normal;
+		display: inline;
+		width:93%;
+
+	}	
+	span{
+		background-color:$black2;
+		display: inline;
+		-webkit-box-decoration-break: clone;
+        padding-left: 15px;
+        white-space: pre-line;
+        line-height: 1.17px;
+	}
+
+	@media only screen and (min-width: $tab_view){
+
+		figure{
+			margin:3% 0 3% 3%;
+			width:52%;
+		}
+	}
+
+
+
+	@media only screen and (min-width: $desktop_view) {
+
+    	overflow:hidden;
+    	white-space: normal;
+    
+
+   figure{
+		width:30%;
+		margin:2% 0 2% 2.3%;	
+    	}
+    figure:nth-child(3) {
+     					margin-right:0;
+						}		
+
+			
+
+
+}
+@media only screen and (min-width:$wide_screen){
+
+	h3{
+		font-size: 25px;
+	}
+}
+
+}
+
