@@ -1,10 +1,13 @@
 @import "mixing";
 @import "variables";
+@import "compass";
 
 #scroller{
+	@include box-sizing(border-box);
 	overflow-x: scroll;
     white-space: nowrap;
     width:100%;
+
 	
 	figure{
 	position:relative;

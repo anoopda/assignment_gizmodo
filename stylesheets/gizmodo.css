@@ -1,3 +1,156 @@
+/* line 2, ../sass/common_classes.scss */
+.vertical_list ul {
+  list-style-type: none;
+}
+/* line 5, ../sass/common_classes.scss */
+.vertical_list li {
+  display: block;
+}
+
+/* line 6, ../sass/content.scss */
+.blank_space {
+  width: 100%;
+  height: 270px;
+  border-bottom: 1px solid #eaeaea;
+  border-top: 1px solid #eaeaea;
+  display: none;
+}
+@media only screen and (min-width: 1024px) {
+  /* line 6, ../sass/content.scss */
+  .blank_space {
+    display: inline-block;
+  }
+}
+
+/* line 24, ../sass/content.scss */
+.aside_bar {
+  width: 40%;
+  height: 100%;
+  background-color: red;
+  display: inline-block;
+}
+
+/* line 33, ../sass/content.scss */
+#content_wrapper {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+}
+/* line 37, ../sass/content.scss */
+#content_wrapper h1 {
+  margin-left: 3px;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+/* line 43, ../sass/content.scss */
+#content_wrapper a {
+  text-decoration: none;
+}
+/* line 47, ../sass/content.scss */
+#content_wrapper #author_wrapper {
+  display: inline-block;
+}
+/* line 50, ../sass/content.scss */
+#content_wrapper #author_wrapper a {
+  display: block;
+}
+/* line 55, ../sass/content.scss */
+#content_wrapper #author_wrapper #author_name {
+  font-size: 15px;
+  color: #8A8A8A;
+}
+/* line 60, ../sass/content.scss */
+#content_wrapper #author_wrapper #post_time {
+  font-size: 13px;
+  color: #CCC;
+}
+/* line 67, ../sass/content.scss */
+#content_wrapper #symbol_wrapper {
+  display: inline-block;
+  float: right;
+}
+/* line 70, ../sass/content.scss */
+#content_wrapper #symbol_wrapper a {
+  display: inline-block;
+}
+/* line 73, ../sass/content.scss */
+#content_wrapper #symbol_wrapper a #chatbox_bubble {
+  width: 32px;
+  height: 32px;
+}
+/* line 77, ../sass/content.scss */
+#content_wrapper #symbol_wrapper a #star {
+  width: 35px;
+  height: 35px;
+}
+/* line 81, ../sass/content.scss */
+#content_wrapper #symbol_wrapper a #three_dots {
+  width: 35px;
+  height: 35px;
+}
+/* line 85, ../sass/content.scss */
+#content_wrapper #symbol_wrapper a span {
+  color: #ccc;
+}
+/* line 92, ../sass/content.scss */
+#content_wrapper .border_line {
+  width: 80%;
+  margin-left: 5px;
+  border-bottom: 1px solid #eaeaea;
+}
+/* line 97, ../sass/content.scss */
+#content_wrapper p {
+  font-size: 16px;
+  margin-left: 20px;
+}
+/* line 102, ../sass/content.scss */
+#content_wrapper img {
+  margin-top: 2px;
+  display: block;
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* line 110, ../sass/content.scss */
+  #content_wrapper img {
+    width: 19%;
+    display: inline-block;
+    margin-left: 5px;
+    float: left;
+  }
+  /* line 116, ../sass/content.scss */
+  #content_wrapper p {
+    float: left;
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 800px) {
+  /* line 33, ../sass/content.scss */
+  #content_wrapper {
+    position: relative;
+  }
+  /* line 128, ../sass/content.scss */
+  #content_wrapper #symbol_wrapper {
+    position: absolute;
+    top: 2px;
+    left: 3px;
+  }
+  /* line 132, ../sass/content.scss */
+  #content_wrapper #symbol_wrapper a {
+    display: block;
+  }
+  /* line 137, ../sass/content.scss */
+  #content_wrapper img {
+    position: absolute;
+  }
+  /* line 141, ../sass/content.scss */
+  #content_wrapper p {
+    position: absolute;
+    margin-left: 174px;
+  }
+}
+
 /* line 4, ../sass/header.scss */
 #header {
   border-bottom: 1px solid #eaeaea;
@@ -138,13 +291,16 @@
     color: #0093ec;
   }
 }
-/* line 4, ../sass/scroller.scss */
+/* line 5, ../sass/scroller.scss */
 #scroller {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   overflow-x: scroll;
   white-space: nowrap;
   width: 100%;
 }
-/* line 9, ../sass/scroller.scss */
+/* line 12, ../sass/scroller.scss */
 #scroller figure {
   position: relative;
   width: 80%;
@@ -154,19 +310,19 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
-/* line 19, ../sass/scroller.scss */
+/* line 22, ../sass/scroller.scss */
 #scroller figure:hover:after {
   opacity: 0.2;
 }
-/* line 22, ../sass/scroller.scss */
+/* line 25, ../sass/scroller.scss */
 #scroller figure:hover h3 {
   opacity: 1;
 }
-/* line 25, ../sass/scroller.scss */
+/* line 28, ../sass/scroller.scss */
 #scroller figure:nth-child(3) {
   margin-right: 5%;
 }
-/* line 29, ../sass/scroller.scss */
+/* line 32, ../sass/scroller.scss */
 #scroller figure:after {
   display: block;
   content: '';
@@ -180,7 +336,7 @@
   opacity: 0;
   transition: opacity 100ms ease-in-out;
 }
-/* line 42, ../sass/scroller.scss */
+/* line 45, ../sass/scroller.scss */
 #scroller img {
   height: 100%;
   width: 100%;
@@ -190,7 +346,7 @@
   height: 100%;
   width: 100%;
 }
-/* line 52, ../sass/scroller.scss */
+/* line 55, ../sass/scroller.scss */
 #scroller h3 {
   position: absolute;
   z-index: 2;
@@ -202,7 +358,7 @@
   display: inline;
   width: 93%;
 }
-/* line 63, ../sass/scroller.scss */
+/* line 66, ../sass/scroller.scss */
 #scroller span {
   background-color: #000;
   display: inline;
@@ -212,42 +368,33 @@
   line-height: 1.17px;
 }
 @media only screen and (min-width: 600px) {
-  /* line 74, ../sass/scroller.scss */
+  /* line 77, ../sass/scroller.scss */
   #scroller figure {
     margin: 3% 0 3% 3%;
     width: 52%;
   }
 }
 @media only screen and (min-width: 800px) {
-  /* line 4, ../sass/scroller.scss */
+  /* line 5, ../sass/scroller.scss */
   #scroller {
     overflow: hidden;
     white-space: normal;
   }
-  /* line 88, ../sass/scroller.scss */
+  /* line 91, ../sass/scroller.scss */
   #scroller figure {
     width: 30%;
     margin: 2% 0 2% 2.3%;
   }
-  /* line 92, ../sass/scroller.scss */
+  /* line 95, ../sass/scroller.scss */
   #scroller figure:nth-child(3) {
     margin-right: 0;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 102, ../sass/scroller.scss */
+  /* line 105, ../sass/scroller.scss */
   #scroller h3 {
     font-size: 25px;
   }
-}
-
-/* line 2, ../sass/common_classes.scss */
-.vertical_list ul {
-  list-style-type: none;
-}
-/* line 5, ../sass/common_classes.scss */
-.vertical_list li {
-  display: block;
 }
 
 /* line 16, ../sass/gizmodo.scss */

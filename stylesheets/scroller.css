@@ -1,10 +1,13 @@
-/* line 4, ../sass/scroller.scss */
+/* line 5, ../sass/scroller.scss */
 #scroller {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   overflow-x: scroll;
   white-space: nowrap;
   width: 100%;
 }
-/* line 9, ../sass/scroller.scss */
+/* line 12, ../sass/scroller.scss */
 #scroller figure {
   position: relative;
   width: 80%;
@@ -14,19 +17,19 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
-/* line 19, ../sass/scroller.scss */
+/* line 22, ../sass/scroller.scss */
 #scroller figure:hover:after {
   opacity: 0.2;
 }
-/* line 22, ../sass/scroller.scss */
+/* line 25, ../sass/scroller.scss */
 #scroller figure:hover h3 {
   opacity: 1;
 }
-/* line 25, ../sass/scroller.scss */
+/* line 28, ../sass/scroller.scss */
 #scroller figure:nth-child(3) {
   margin-right: 5%;
 }
-/* line 29, ../sass/scroller.scss */
+/* line 32, ../sass/scroller.scss */
 #scroller figure:after {
   display: block;
   content: '';
@@ -40,7 +43,7 @@
   opacity: 0;
   transition: opacity 100ms ease-in-out;
 }
-/* line 42, ../sass/scroller.scss */
+/* line 45, ../sass/scroller.scss */
 #scroller img {
   height: 100%;
   width: 100%;
@@ -50,7 +53,7 @@
   height: 100%;
   width: 100%;
 }
-/* line 52, ../sass/scroller.scss */
+/* line 55, ../sass/scroller.scss */
 #scroller h3 {
   position: absolute;
   z-index: 2;
@@ -62,7 +65,7 @@
   display: inline;
   width: 93%;
 }
-/* line 63, ../sass/scroller.scss */
+/* line 66, ../sass/scroller.scss */
 #scroller span {
   background-color: #000;
   display: inline;
@@ -72,30 +75,30 @@
   line-height: 1.17px;
 }
 @media only screen and (min-width: 600px) {
-  /* line 74, ../sass/scroller.scss */
+  /* line 77, ../sass/scroller.scss */
   #scroller figure {
     margin: 3% 0 3% 3%;
     width: 52%;
   }
 }
 @media only screen and (min-width: 800px) {
-  /* line 4, ../sass/scroller.scss */
+  /* line 5, ../sass/scroller.scss */
   #scroller {
     overflow: hidden;
     white-space: normal;
   }
-  /* line 88, ../sass/scroller.scss */
+  /* line 91, ../sass/scroller.scss */
   #scroller figure {
     width: 30%;
     margin: 2% 0 2% 2.3%;
   }
-  /* line 92, ../sass/scroller.scss */
+  /* line 95, ../sass/scroller.scss */
   #scroller figure:nth-child(3) {
     margin-right: 0;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 102, ../sass/scroller.scss */
+  /* line 105, ../sass/scroller.scss */
   #scroller h3 {
     font-size: 25px;
   }
