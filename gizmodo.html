@@ -5,7 +5,7 @@
 
 
     <title>GIZMODO</title>
-    <script src="jquery-1.12.4.min.js"></script>
+   <!--  <script src="jquery-1.12.4.min.js"></script> -->
     <link rel="stylesheet" type="text/css" href="stylesheets/gizmodo.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
 	<script type="text/javascript" src="js/scroller_image_list.js"></script>
-	<script src="jquery-1.12.4.min.js"></script>
+	<!-- <script src="jquery-1.12.4.min.js"></script> -->
 	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.4.4.js"></script>
     <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
 
@@ -58,10 +58,41 @@
 
 		<section class ="blank_space">
 		</section>
-		<aside class="aside_bar"></aside>
 
 
+		<aside class="aside_bar">
 
+
+			<section class="login_form">
+				<span>Want Gizmodos email newsletter?</span><span id="close_button">&#x2715;</span>
+				<form >
+					<input type="text" value="" class="input_form" placeholder="Add your email address">
+				</form>	
+				<button class="submit_btn">Subscribe</button>
+			</section>
+
+
+			
+				<section class="image_slider">
+					<img id="concorse" src="https://i.kinja-img.com/gawker-media/image/upload/s--4yWRBk2j--/c_scale,fl_progressive,q_80,w_800/q1gup0rbsxv4y6jgi8oa.jpg">
+					<img id="garage" src="https://i.kinja-img.com/gawker-media/image/upload/s--do1kZ19B--/rlucpsncfpwbubqs6clf.jpg">
+					<img id="cosplay" src="https://i.kinja-img.com/gawker-media/image/upload/s--w6fE6bsz--/c_scale,fl_progressive,q_80,w_800/xlu2m3hzhaeozibcw6oj.jpg">
+					<div class="display_wrapper">
+						<img id="concorse2" src="https://i.kinja-img.com/gawker-media/image/upload/s--4yWRBk2j--/c_scale,fl_progressive,q_80,w_800/q1gup0rbsxv4y6jgi8oa.jpg" class="wrapper_none">
+						<img id="garage2" src="https://i.kinja-img.com/gawker-media/image/upload/s--do1kZ19B--/rlucpsncfpwbubqs6clf.jpg" class="wrapper_none">
+						<img id="cosplay2" src="https://i.kinja-img.com/gawker-media/image/upload/s--w6fE6bsz--/c_scale,fl_progressive,q_80,w_800/xlu2m3hzhaeozibcw6oj.jpg" class="wrapper_none">
+					</div>
+				</section>
+
+ 
+
+			
+
+
+		</aside>
+
+
+<section class="main_articles">
 	<section class="article_wrapper">
 		<h1>Intel Lawyers Tell John McAfee He Can't Call His Company 'John McAfee'</h1>
 
@@ -108,16 +139,52 @@
 		</section>
 		<img src="https://i.kinja-img.com/gawker-media/image/upload/s--9uC1mWqG--/c_fill,fl_progressive,g_center,h_180,q_80,w_320/szqmo0kly27juddtzo8k.jpg">
 		<p>
-			If anything reminds the plan-less of how fundamentally alone they are in the world, it’s the long weekends of our country’s lesser holidays. Labor Day can be the most melancholic of them all; not only do you get an extra day off to be alone with yourself, but it signifies the transition from summer to fall, a nasty.
+			If anything reminds the plan-less of how fundamentally alone they are in the world, it’s the long weekends of our countrys lesser holidays. Labor Day can be the most melancholic of them all, not only do you get an extra day off to be alone with yourself, but it signifies the transition from summer to fall, a nasty.
 		</p>
-		<span class="border_line">
+		<span class="border_line_big">
 		</span>
 				
-
-
-
-
 	</section>
+
+
+<section class="more_news">
+	<section class="more_wrapper">
+		<img src="https://i.kinja-img.com/gawker-media/image/upload/s--4yWRBk2j--/c_scale,fl_progressive,q_80,w_800/q1gup0rbsxv4y6jgi8oa.jpg">
+		<span>Check out a Century of Stop-Motion Animation, From </span>
+	</section>
+
+	<section class="more_wrapper">
+		<img src="https://i.kinja-img.com/gawker-media/image/upload/s--6PeQdX3h--/ytcj23qfaj6e8jrh4kio.jpg">
+		<span>Check out a Century of Stop-Motion Animation, From </span>
+	</section>
+
+	<section class="more_wrapper">
+		<img src="https://i.kinja-img.com/gawker-media/image/upload/s--w6fE6bsz--/c_scale,fl_progressive,q_80,w_800/xlu2m3hzhaeozibcw6oj.jpg">
+		<span>Check out a Century of Stop-Motion Animation, From </span>
+	</section>
+
+	<section class="more_wrapper">
+		<img src="https://i.kinja-img.com/gawker-media/image/upload/s--do1kZ19B--/rlucpsncfpwbubqs6clf.jpg">
+		<span>Check out a Century of Stop-Motion Animation, From </span>
+	</section>
+
+	<div class="button">
+		<span>More stories > </span>
+
+
+	</div>
+
+
+
+
+
+	
+
+
+
+</section>
+
+</section>
 
 
 
@@ -233,6 +300,7 @@
  -->
 
 <script type="text/javascript" src="js/scroller_image_list.js"></script>
+<script type="text/javascript" src="js/image_slider.js"></script>
 
 </body>
 
