@@ -31,7 +31,7 @@
 }
 
 /* line 33, ../sass/content.scss */
-#content_wrapper {
+.article_wrapper, .big_article_wrapper {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -39,115 +39,176 @@
   width: 100%;
 }
 /* line 37, ../sass/content.scss */
-#content_wrapper h1 {
+.article_wrapper h1, .big_article_wrapper h1 {
   margin-left: 3px;
   margin-top: 5px;
+}
+/* line 41, ../sass/content.scss */
+.article_wrapper h1:hover, .big_article_wrapper h1:hover {
   text-decoration: underline;
 }
-/* line 43, ../sass/content.scss */
-#content_wrapper a {
+/* line 49, ../sass/content.scss */
+.article_wrapper a, .big_article_wrapper a {
   text-decoration: none;
 }
-/* line 47, ../sass/content.scss */
-#content_wrapper #author_wrapper {
+/* line 53, ../sass/content.scss */
+.article_wrapper .author_wrapper, .big_article_wrapper .author_wrapper {
   display: inline-block;
 }
-/* line 50, ../sass/content.scss */
-#content_wrapper #author_wrapper a {
+/* line 56, ../sass/content.scss */
+.article_wrapper .author_wrapper a, .big_article_wrapper .author_wrapper a {
   display: block;
 }
-/* line 55, ../sass/content.scss */
-#content_wrapper #author_wrapper #author_name {
+/* line 62, ../sass/content.scss */
+.article_wrapper .author_wrapper .author_name, .big_article_wrapper .author_wrapper .author_name {
   font-size: 15px;
-  color: #8A8A8A;
+  color: #434343;
 }
-/* line 60, ../sass/content.scss */
-#content_wrapper #author_wrapper #post_time {
+/* line 65, ../sass/content.scss */
+.article_wrapper .author_wrapper .author_name:hover, .big_article_wrapper .author_wrapper .author_name:hover {
+  text-decoration: underline;
+}
+/* line 70, ../sass/content.scss */
+.article_wrapper .author_wrapper .post_time, .big_article_wrapper .author_wrapper .post_time {
   font-size: 13px;
   color: #CCC;
 }
-/* line 67, ../sass/content.scss */
-#content_wrapper #symbol_wrapper {
+/* line 73, ../sass/content.scss */
+.article_wrapper .author_wrapper .post_time :hover, .big_article_wrapper .author_wrapper .post_time :hover {
+  text-decoration: underline;
+}
+/* line 76, ../sass/content.scss */
+.article_wrapper .author_wrapper .post_time span, .big_article_wrapper .author_wrapper .post_time span {
+  font-size: 8px;
+  color: #CCC;
+}
+/* line 84, ../sass/content.scss */
+.article_wrapper .symbol_wrapper, .big_article_wrapper .symbol_wrapper {
   display: inline-block;
   float: right;
 }
-/* line 70, ../sass/content.scss */
-#content_wrapper #symbol_wrapper a {
+/* line 88, ../sass/content.scss */
+.article_wrapper .symbol_wrapper a, .big_article_wrapper .symbol_wrapper a {
   display: inline-block;
 }
-/* line 73, ../sass/content.scss */
-#content_wrapper #symbol_wrapper a #chatbox_bubble {
+/* line 88, ../sass/content.scss */
+.article_wrapper .symbol_wrapper a :hover, .big_article_wrapper .symbol_wrapper a :hover {
+  color: blue;
+}
+/* line 90, ../sass/content.scss */
+.article_wrapper .symbol_wrapper a :hover img, .big_article_wrapper .symbol_wrapper a :hover img {
+  display: block;
+}
+/* line 98, ../sass/content.scss */
+.article_wrapper .symbol_wrapper a .chatbox_bubble, .big_article_wrapper .symbol_wrapper a .chatbox_bubble {
   width: 32px;
   height: 32px;
 }
-/* line 77, ../sass/content.scss */
-#content_wrapper #symbol_wrapper a #star {
+/* line 102, ../sass/content.scss */
+.article_wrapper .symbol_wrapper a .star, .big_article_wrapper .symbol_wrapper a .star {
   width: 35px;
   height: 35px;
 }
-/* line 81, ../sass/content.scss */
-#content_wrapper #symbol_wrapper a #three_dots {
+/* line 106, ../sass/content.scss */
+.article_wrapper .symbol_wrapper a .three_dots, .big_article_wrapper .symbol_wrapper a .three_dots {
   width: 35px;
   height: 35px;
 }
-/* line 85, ../sass/content.scss */
-#content_wrapper #symbol_wrapper a span {
+/* line 110, ../sass/content.scss */
+.article_wrapper .symbol_wrapper a span, .big_article_wrapper .symbol_wrapper a span {
   color: #ccc;
+  display: block;
+  margin-left: 44%;
 }
-/* line 92, ../sass/content.scss */
-#content_wrapper .border_line {
-  width: 80%;
+/* line 120, ../sass/content.scss */
+.article_wrapper .border_line, .big_article_wrapper .border_line {
+  width: 98%;
   margin-left: 5px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 3px solid #eaeaea;
+  display: block;
+  margin-top: 13%;
 }
-/* line 97, ../sass/content.scss */
-#content_wrapper p {
+/* line 128, ../sass/content.scss */
+.article_wrapper p, .big_article_wrapper p {
   font-size: 16px;
   margin-left: 20px;
 }
-/* line 102, ../sass/content.scss */
-#content_wrapper img {
+/* line 133, ../sass/content.scss */
+.article_wrapper img, .big_article_wrapper img {
   margin-top: 2px;
   display: block;
   width: 100%;
 }
 @media only screen and (min-width: 600px) {
-  /* line 110, ../sass/content.scss */
-  #content_wrapper img {
+  /* line 141, ../sass/content.scss */
+  .article_wrapper img, .big_article_wrapper img {
     width: 19%;
     display: inline-block;
     margin-left: 5px;
     float: left;
   }
-  /* line 116, ../sass/content.scss */
-  #content_wrapper p {
+  /* line 147, ../sass/content.scss */
+  .article_wrapper p, .big_article_wrapper p {
     float: left;
     width: 75%;
   }
 }
 @media only screen and (min-width: 800px) {
   /* line 33, ../sass/content.scss */
-  #content_wrapper {
+  .article_wrapper, .big_article_wrapper {
     position: relative;
   }
-  /* line 128, ../sass/content.scss */
-  #content_wrapper #symbol_wrapper {
+  /* line 159, ../sass/content.scss */
+  .article_wrapper .symbol_wrapper, .big_article_wrapper .symbol_wrapper {
     position: absolute;
-    top: 2px;
-    left: 3px;
+    top: 0px;
+    left: 93%;
   }
-  /* line 132, ../sass/content.scss */
-  #content_wrapper #symbol_wrapper a {
+  /* line 163, ../sass/content.scss */
+  .article_wrapper .symbol_wrapper a, .big_article_wrapper .symbol_wrapper a {
     display: block;
+    margin-bottom: 4px;
   }
-  /* line 137, ../sass/content.scss */
-  #content_wrapper img {
-    position: absolute;
+  /* line 166, ../sass/content.scss */
+  .article_wrapper .symbol_wrapper a span, .big_article_wrapper .symbol_wrapper a span {
+    margin-top: 1%;
   }
-  /* line 141, ../sass/content.scss */
-  #content_wrapper p {
+  /* line 176, ../sass/content.scss */
+  .article_wrapper p, .big_article_wrapper p {
     position: absolute;
-    margin-left: 174px;
+    margin-left: 21%;
+    word-wrap: break-word;
+    width: 70%;
+  }
+  /* line 183, ../sass/content.scss */
+  .article_wrapper h1, .big_article_wrapper h1 {
+    width: 94%;
+  }
+}
+
+/* line 198, ../sass/content.scss */
+.big_article_wrapper h1 {
+  font-size: 38px;
+}
+/* line 201, ../sass/content.scss */
+.big_article_wrapper img {
+  width: 80%;
+}
+/* line 204, ../sass/content.scss */
+.big_article_wrapper p {
+  position: relative;
+  clear: both;
+  margin-left: 1%;
+  margin-top: 3%;
+}
+/* line 210, ../sass/content.scss */
+.big_article_wrapper .border_line {
+  margin-top: 64%;
+}
+@media only screen and (min-width: 800px) {
+  /* line 216, ../sass/content.scss */
+  .big_article_wrapper .symbol_wrapper {
+    top: 3%;
   }
 }
 
