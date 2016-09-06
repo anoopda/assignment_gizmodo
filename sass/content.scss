@@ -263,7 +263,15 @@
         display: inline-block;
         margin-left: 7%;
         margin-top: 3%;
+        margin: 0 auto;
         width: 40%;
+
+         @media only screen and (min-width: 600px) {
+        
+            width: 22%;
+            margin:0 auto;
+        
+    }
         img {
             display: block;
             width: 100%;
@@ -280,7 +288,6 @@
         border-radius: 32px;
         width: 180px;
         height: 40px;
-        margin-left: 31%;
         margin-top: 4%;
         position:relative;
         span {	 position:absolute;
