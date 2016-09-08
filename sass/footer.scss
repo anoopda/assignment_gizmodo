@@ -13,18 +13,20 @@ footer{
 
 .footer_subscribe{
 	position:relative;
-	width:100%;
-	height:100px;
-	background-color:#F5F5F5;
-	margin-top: 25px;
-   	margin-left: 21px;
+	@include box(72%,100px);
+	background-color:$white2;
    	margin:0 auto;
+   	margin-top: 44px;
+   	  @media only screen and (min-width:$wide_screen){
+      	width:392px;
+      }
 
-	span{
-		margin-top: 1px;
-		margin-left: 33px;
+
+	.footer_question{
+		
 		position:absolute;
-		left: -26px;
+		    left: 12px;
+    		top: 26px;
 	}
 	#close_button_footer{
 		position:absolute;
@@ -34,31 +36,30 @@ footer{
 
 		border:0px;
 		border-bottom: #aaa 1px solid;
-		background-color:#F5F5F5;
-		margin-top: 14px;
-    	margin-left: 34px;
+		background-color:$white2;
+    	margin:14px 0 0 34px;
     	margin: 0 auto;
 		display: inline-block;
 		position:absolute;
-		top: 29px;
-        left: 14px;
+		top: 56px;
+    	left: 14px;
 	}
 	.submit_btn_footer{
-	width: 76px;
-    height: 27px;
+     @include box(76px,27px);
     display: inline-block;
     border-radius: 15px;
     border:none;
-    background-color: #0095ff;
-    color: #fff;
-    margin-top: 10px;
+    background-color:$blue3;
+    color:$white1;
     position: absolute;
-    margin-right: 9px;
+    margin:10px 9px 0 0 ;
     right: 4px;
-    top: 5px;
+    float: right;
+    top: 39px;
+}
 	}
 	
-	}
+
 
 	.horizontal_bar{
 	list-style-type: none;
@@ -75,7 +76,7 @@ footer{
 		margin-top: 20px;
 		
 		li{
-			color:#33393F;
+			color:$grey3;
 			margin-left:1px;
 		}
 	}
@@ -85,8 +86,8 @@ footer{
     margin-top: 14px;
     font-size: 12px;
    
-      @media only screen and (max-width: 400px){
-      	width:30%;
+      @media only screen and (max-width:$mobile_view){
+      	width:58%;
       }
 	li{
 		margin-left:1px;

@@ -105,34 +105,34 @@
 #cross {
   margin-left: 1px;
   color: #aaa;
-  width: 1px;
   height: 1px;
+  width: 1px;
 }
 
 @media only screen and (min-width: 600px) {
-  /* line 88, ../sass/header.scss */
+  /* line 87, ../sass/header.scss */
   #login_button {
     display: inline-block;
   }
 }
 @media only screen and (min-width: 800px) {
-  /* line 95, ../sass/header.scss */
+  /* line 94, ../sass/header.scss */
   #logo {
     display: inline-block;
     margin-left: 39%;
   }
 
-  /* line 99, ../sass/header.scss */
+  /* line 98, ../sass/header.scss */
   #search_icon {
     display: inline-block;
   }
 
-  /* line 102, ../sass/header.scss */
+  /* line 101, ../sass/header.scss */
   #logo_wrapper:hover #logo_onhover {
     display: inline-block;
   }
 
-  /* line 103, ../sass/header.scss */
+  /* line 102, ../sass/header.scss */
   #logo_onhover a:hover {
     text-decoration: underline;
     color: #0093ec;

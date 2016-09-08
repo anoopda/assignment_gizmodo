@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'box-sizing'.
-        on line 97 of /home/anoop/Desktop/Assignments/gizmodo/sass/content.scss, in `box-sizing'
-        from line 97 of /home/anoop/Desktop/Assignments/gizmodo/sass/content.scss
+        on line 89 of /home/anoop/Desktop/Assignments/gizmodo/sass/content.scss, in `box-sizing'
+        from line 89 of /home/anoop/Desktop/Assignments/gizmodo/sass/content.scss
 
-92: 
-93:     }
-94: }
-95: 
-96: .article_wrapper {
-97:     @include box-sizing(border-box);
-98:     display: inline-block;
-99:     width: 100%;
-100:     p{
-101:     	line-height: 1.6;
-102:     }
+84: 
+85:     }
+86: }
+87: 
+88: .article_wrapper {
+89:     @include box-sizing(border-box);
+90:     display: inline-block;
+91:     width: 100%;
+92:     p{
+93:     	line-height: 1.6;
+94:     }
 
 Backtrace:
-/home/anoop/Desktop/Assignments/gizmodo/sass/content.scss:97:in `box-sizing'
-/home/anoop/Desktop/Assignments/gizmodo/sass/content.scss:97
+/home/anoop/Desktop/Assignments/gizmodo/sass/content.scss:89:in `box-sizing'
+/home/anoop/Desktop/Assignments/gizmodo/sass/content.scss:89
 /usr/local/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /usr/local/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:98:in `block in with_mixin'
 /usr/local/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
@@ -74,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'box-sizing'.\A         on line 97 of /home/anoop/Desktop/Assignments/gizmodo/sass/content.scss, in `box-sizing'\A         from line 97 of /home/anoop/Desktop/Assignments/gizmodo/sass/content.scss\A \A 92: \A 93:     }\A 94: }\A 95: \A 96: .article_wrapper {\A 97:     @include box-sizing(border-box);\A 98:     display: inline-block;\A 99:     width: 100%;\A 100:     p{\A 101:     	line-height: 1.6;\A 102:     }"; }
+  content: "Error: Undefined mixin 'box-sizing'.\A         on line 89 of /home/anoop/Desktop/Assignments/gizmodo/sass/content.scss, in `box-sizing'\A         from line 89 of /home/anoop/Desktop/Assignments/gizmodo/sass/content.scss\A \A 84: \A 85:     }\A 86: }\A 87: \A 88: .article_wrapper {\A 89:     @include box-sizing(border-box);\A 90:     display: inline-block;\A 91:     width: 100%;\A 92:     p{\A 93:     	line-height: 1.6;\A 94:     }"; }

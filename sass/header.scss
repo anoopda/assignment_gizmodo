@@ -79,9 +79,8 @@
 }
 #cross{
     margin-left:1px;
-    color: #aaa;
-    width:1px;
-    height:1px;
+    color: $grey1;
+    @include box(1px,1px);
 }
 
 @media only screen and (min-width: $tab_view) {

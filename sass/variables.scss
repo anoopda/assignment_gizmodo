@@ -1,4 +1,5 @@
 //MEDIA QUERY
+$mobile_view:400px;
 $tab_view:600px;
 $desktop_view:800px;
 $wide_screen:1024px;
@@ -9,6 +10,7 @@ $logo_font:'Nunito', sans-serif;
 
 //white
 $white1:#fff;
+$white2:#F5F5F5;
 
 //black
 $black1:#222;//lighter black
@@ -18,11 +20,15 @@ $black2:#000;//black
 //grey
 $grey1:#aaa;
 $grey2:#eaeaea;//border grey
+$grey3:#33393F;
+$grey4:#434343;//author name
+$grey5:#CCC;
 
 
 //blue
 $blue1:#0076bd; //dark blue
 $blue2:#0093ec;//hover blue
+$blue3:#0095ff;		
 
 
 
