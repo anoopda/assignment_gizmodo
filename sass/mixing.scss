@@ -1,0 +1,9 @@
+@mixin box($wt,$ht) {
+ height:$ht;
+ width: $wt;
+}
+
+@mixin square ($wt) {
+	height:$wt;
+	width:$wt;
+}

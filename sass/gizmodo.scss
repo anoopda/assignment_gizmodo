@@ -1,0 +1,24 @@
+@import "compass";
+
+@import "content";
+@import "header";
+@import"scroller";
+@import"footer";
+
+
+
+@import "variables";
+@import "common_classes";
+@import"mixing";
+
+
+
+
+body{
+    background: $white1;
+    font-style: sans-serif;
+}
+
+
+
+
